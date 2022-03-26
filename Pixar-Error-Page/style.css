@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar:hover, #botmenu a:hover, #media:hover>a {
+  color: rgba(29, 29, 29, .4);
+  transition: color 170ms ease-in-out;
+}
+
+.media:hover {
+  color: #1d1d1d;
+  transition: color 170ms ease-in-out;
+}
+
+header {
+  display: flex;
+  padding: 33px 118px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo a {
+  display: block;
+  padding: 1px 24px;
+}
+
+nav {
+  margin: 0 -13.95px;
+  padding-right: 48px;
+}
+
+nav #nav {
+  display: flex;
+  margin-top: -4px;
+  padding: 1px 24px;
+}
+
+.navbar {
+  color: #1d1d1d;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 15px;
+  margin: 0 13.95px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  transition: color 170ms ease-in-out;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 76px 142px;
+}
+
+#cryimg img {
+  width: 400px;
+  height: 550px;
+}
+
+#dontcry {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: #1d1d1d;
+  font-size: 34px;
+  margin-top: 179px;
+  margin-left: 14px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(29, 29, 29, .7);
+}
+
+#mediacontainer {
+  text-align: center;
+  padding-top: 38px;
+  padding-left: 6px;
+}
+
+#media {
+  margin: auto auto;
+  width: 241px;
+  height: 37px;
+  font-size: 22px;
+  font-family: futura-pt;
+  letter-spacing: 5px;
+}
+
+#media a {
+  color: #1d1d1d;
+}
+
+#botmenu {
+  text-align: center;
+  margin-top: 55px;
+}
+
+#botmenu a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: .29em;
+  line-height: 1.7em;
+  text-transform: uppercase;
+  color: #1d1d1d;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(29, 29, 29, .3);
+  display: inline-block;
+}
+
+#copyr {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: #1d1d1d;
+  letter-spacing: .29em;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 91px;
+}
